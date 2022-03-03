@@ -1,0 +1,41 @@
+.topicMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background: var(--purple-bg);
+  color: var(--white);
+
+  padding: 50px 150px 50px 150px;
+  gap: 50px;
+
+  .title {
+    color: #9E6DC2;
+    font-size: 40px;;
+    padding-bottom: 20px;
+  }
+  
+  .subTitle {
+    color: var(--white);
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  .vejaMais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #9E6DC2;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
+
+hr {
+  color: var(--green);
+  height: 2px;
+  border: 2px solid;
+}
